@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+    <title>Pickr</title>
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
+    <!-- <link rel="stylesheet" href="framework.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css"
+  </head>
+  <body>
+<script src="snowstorm.js"> </script>
+<div id="container" class="container" style="
+    position: fixed;
+    top: -5%;
+    width: 102%;
+    left: -2%;
+    height: 100%;
+">
+    <ul id="scene" class="scene">
+      <li class="layer big1" data-depth=".10"><img src="images/sky.png"></li>
+      <li class="layer big1" data-depth="0.17"><img src="images/mountain.png"></li>
+      <li class="layer big1" data-depth="0.20"><img src="images/left.png"></li>
+      <li class="layer big1" data-depth="0.3"><img src="images/rightman.png"></li>
+      <li class="layer big1" data-depth="0.4"><img src="images/right.png"></li>
+    <!--    <li class="layer big1" data-depth="0.00"><img src="images/layer7.png"></l> -->
+      <li class="layer big1" data-depth="0.50"><img src="images/layer8.png"></li>
+    </ul>
+  </div>
+
+<script src="deploy/parallax.js"></script>
+  <script>
+  // Nothing new here...it's all in the CSS!
+  var scene = document.getElementById('scene');
+  var parallax = new Parallax(scene);
+  </script>
+
+  <div class="becomeMenu"> 
+  <p> What will you become? </p>
+ <submit>
+  <Button ng-click"begin" class="begin"> Begin </Button>
+  </submit>
+  </div>
+    
+  </body>
+</html>
+
+
+

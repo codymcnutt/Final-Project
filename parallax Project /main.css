@@ -1,0 +1,28 @@
+.becomeMenu {
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    height: 30%;
+    width: 24%;
+    background: -webkit-linear-gradient(left, rgba(255,0,0,0), rgba(255,0,0,1)); /* For Safari 5.1 to 6.0 */
+    background: linear-gradient(to right, rgba(12,17,39,0), rgba(12, 17,39,1));
+    opacity: 0.68;
+    box-shadow: 11px 10px 64px -16px azure;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 25px;
+    color: ghostwhite;
+
+}
+.begin{
+	border: none;	
+	font-family: fantasy;
+	border-radius: 20px;
+	text-align: center;	
+	background-color: ghostwhite;
+	opacity: .4;	
+	color: black;	
+	height:50px;
+	top:62%;
+
+}
